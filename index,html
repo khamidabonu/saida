@@ -1,1 +1,66 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<table>                                     <form method="get">
+<tr>
+			<td>Ваше имя</td>
+			<td><input type="text"value="Имя..."name="name"><td>
+</tr>
+<tr>
+			<td>Фамилия</td>
+			<td><input type="text"value="Фамилия..."name="fam">
+</tr>
+<tr>
+			<td>Выберете ваш пол</td>
+			<td><select>
+			<option>Мужской</option>
+            <option>Женский</option>
+			</select>
+			</td>
+</tr>
+<tr>
+			<td colspan="2">Укажите ваш примерный возраст</td>
+</tr>
+<tr>
+    		<td><input type="radio"value="radiobuttom"name="radiobuttom">10-20
+     		<input type="radio"value="radiobuttom"name="radiobuttom">20-30
+     		<input type="radio"value="radiobuttom"name="radiobuttom">30-40
+     		<input type="radio"value="radiobuttom"name="radiobuttom">40-50
+    		</td>
+</tr>
+<tr>
+            <td>Загрузите свое фото</td>
+            <td><input type="file"/></td>
+</tr>
+<tr>
+            <td>Ведите свой логин</td>
+            <td> <input type="text"value="Логин..."name="login"></td>
+</tr>
+<tr>
+            <td>Введите пароль</td>
+            <td> <input type="password"name="password"></td>
+</tr>  
+<tr>  
+            <td>Дополнительная информация о вас</td>
+	        <td><textarea name="about" id="about" cols="20" rows="3"></textarea></td>
+</tr>
+<tr>
+            <td>Согласие на рассылку новостей</td>
+            <td><input type="checkbox"/></td>
+</tr>
+<tr>
+           <td>Согласие с лицензионным соглашением</td>
+           <td><input type="checkbox"/></td>
+</tr>
+<tr>
+	       <td><input type="reset"value="Сбросить"></td>
+           <td><input type="submit"value="Отправить"></td>
+</tr> 
+         </form>
+    </table>
+</body>
+</html>
